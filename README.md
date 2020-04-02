@@ -18,7 +18,7 @@ Indicates the number of cases with time in a given country( i.e. entered through
 Indicates the total number of confirmed cases across the world through a map.
 <br />
 ## Markers Graph
-![Test Image 4](./Markers.PNG)
+![Test Image 4](./Markers.png)
 Indicates the position of the point indicating plot of newly confirmed cases vs the the total confirmed cases. This takes the current data of a country and plots the point. The Graph analyses the position of a given country compared to the others at a point of time.
 <br />
 ## Logarithmic Plot: New Confirmed Vs. Total Confirmed
