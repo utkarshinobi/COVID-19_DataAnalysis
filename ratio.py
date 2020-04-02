@@ -21,7 +21,7 @@ for i in range(0, len(list_of_cases)):
         new_cases[i] = list_of_cases[i]
 
 df['NewCases'] = new_cases
-titleVar = 'LINE GRAPH: Live COVID-19 Cases vs. New Cases in:' + country
+titleVar = 'LINE GRAPH: Live COVID-19 Cases vs. New Cases in ' + country
 fig = px.line(df, x='Cases', y='NewCases', title='')
 fig.update_layout(xaxis_type="log", yaxis_type="log")
 
